@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>dashboard</title>
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+   <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+   <aside>
+      <div class="aside-header">
+         <img src="../images/Logo.png">
+         <span>Dashboard</span>
+      </div>
+      <div class="aside-link">
+         <ul>
+            <li><a href="../index.html">
+                  <img src="../images/aside-link1.1.svg">
+                  <span>Overview</span>
+               </a></li>
+            <li><a href="#">
+                  <img src="../images/aside-link2.1.svg">
+                  <span style="color: #0ff;">Tickets</span>
+               </a></li>
+            <li><a href="#">
+                  <img src="../images/aside-link3.svg">
+                  <span>Ideas</span>
+               </a></li>
+            <li><a href="#">
+                  <img src="../images/aside-link4.svg">
+                  <span>Contacts</span>
+               </a></li>
+            <li><a href="#">
+                  <img src="../images/aside-link5.svg">
+                  <span>Agents</span>
+               </a></li>
+            <li><a href="#">
+                  <img src="../images/aside-link6.svg">
+                  <span>Articles</span>
+               </a></li>
+         </ul>
+      </div>
+      <div class="aside-foot">
+         <div class="aside-mode">
+            <ul>
+               <li class="nav-item" id="dark-light">
+                  <a href="#" class="nav-link">
+                     <input type="checkbox" class="switch" />
+                     <span>Change mode</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                     <img src="../images/logout.svg">
+                     <span>Logout</span>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </aside>
+   <header>
+      <div class="navbar">
+         <div class="hamburger">
+            <svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M0 18.8889C0 18.5942 0.143669 18.3116 0.3994 18.1032C0.655132 17.8948 1.00198 17.7778 1.36364 17.7778H28.6364C28.998 17.7778 29.3449 17.8948 29.6006 18.1032C29.8563 18.3116 30 18.5942 30 18.8889C30 19.1836 29.8563 19.4662 29.6006 19.6746C29.3449 19.8829 28.998 20 28.6364 20H1.36364C1.00198 20 0.655132 19.8829 0.3994 19.6746C0.143669 19.4662 0 19.1836 0 18.8889ZM0 10C0 9.70532 0.143669 9.4227 0.3994 9.21433C0.655132 9.00595 1.00198 8.88889 1.36364 8.88889H28.6364C28.998 8.88889 29.3449 9.00595 29.6006 9.21433C29.8563 9.4227 30 9.70532 30 10C30 10.2947 29.8563 10.5773 29.6006 10.7857C29.3449 10.994 28.998 11.1111 28.6364 11.1111H1.36364C1.00198 11.1111 0.655132 10.994 0.3994 10.7857C0.143669 10.5773 0 10.2947 0 10ZM0 1.11111C0 0.816426 0.143669 0.533811 0.3994 0.325437C0.655132 0.117063 1.00198 0 1.36364 0H28.6364C28.998 0 29.3449 0.117063 29.6006 0.325437C29.8563 0.533811 30 0.816426 30 1.11111C30 1.4058 29.8563 1.68841 29.6006 1.89679C29.3449 2.10516 28.998 2.22222 28.6364 2.22222H1.36364C1.00198 2.22222 0.655132 2.10516 0.3994 1.89679C0.143669 1.68841 0 1.4058 0 1.11111Z"
+                  fill="black" />
+            </svg>
+         </div>
+         <div class="profile">
+            <p>Shohruh Rustamov</p>
+            <img src="../images/shohruh-qarshi.jpg">
+         </div>
+      </div>
+   </header>
+   <main>
+      <div class="main-content">
+         <div class="main-header">
+            <h1>Tickets</h1>
+         </div>
+         <div class="main-add">
+            <button>
+               <img src="../images/main-content.svg">
+            </button>
+            <button class="add">Add</button>
+         </div>
+      </div>
+      <table class="table">
+         <thead>
+            <tr>
+               <div class="tab-head">
+                  <th class="all-tic">All tickets</th>
+               </div>
+            </tr>
+            <tr class="tr">
+               <th class="ticket">Ticket details</th>
+               <th class="customer">Customer name</th>
+               <th class="date">Date</th>
+               <th class="priority">Priority</th>
+               </th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr class="tr">
+               <td class="td">
+                  <div class="table-img">
+                     <img src="../images/tic1.png">
+                  </div>
+                  <div class="table-head">
+                     Contact Email not Linked
+                     <span>Updated 1 day ago</span>
+                  </div>
+               </td>
+               <td>
+                  <div class="table-head">
+                     Tom Cruise
+                     <span>on 24.05.2019</span>
+                  </div>
+               </td>
+               <td>
+                  <div class="table-head">
+                     May 26, 2019
+                     <span>6:30 PM</span>
+                  </div>
+               </td>
+               <td>
+                  <img src="../images/high.png">
+               </td>
+               <td>
+                  <img src="../images/more.png" alt="">
+               </td>
+            </tr>
+            <tr class="tr">
+               <td class="td">
+                  <div class="table-img">
+                     <img src="../images/tic2.png">
+                  </div>
+                  <div class="table-head">
+                     Adding Images to Featured Posts
+                     <span>Updated 1 day ago</span>
+                  </div>
+               </td>
+               <td>
+                  <div class="table-head">
+                     Matt Damon
+                     <span>on 24.05.2019</span>
+                  </div>
+               </td>
+               <td>
+                  <div class="table-head">
+                     May 26, 2019
+                     <span>8:00 AM</span>
+                  </div>
+               </td>
+               <td>
+                  <img src="../images/low.png">
+               </td>
+               <td>
+                  <img src="../images/more.png" alt="">
+               </td>
+            </tr>
+            <tr class="tr">
+               <td class="td">
+                  <div class="table-img">
+                     <img src="../images/tic3.png">
+                  </div>
+                  <div class="table-head">
+                     When will I be charged this month?
+                     <span>Updated 1 day ago</span>
+                  </div>
+               </td>
+               <td>
+                  <div class="table-head">
+                     Robert Downey
+                     <span>on 24.05.2019</span>
+                  </div>
+               </td>
+               <td>
+                  <div class="table-head">
+                     May 26, 2019
+                     <span>7:30 PM</span>
+                  </div>
+               </td>
+               <td>
+                  <img src="../images/high.png">
+               </td>
+               <td>
+                  <img src="../images/more.png" alt="">
+               </td>
+            </tr>
+            <tr class="tr">
+               <td class="td">
+                  <div class="table-img">
+                     <img src="../images/tic4.png">
+                  </div>
+                  <div class="table-head">
+                     Payment not going through
+                     <span>Updated 2 day ago</span>
+                  </div>
+               </td>
+               <td>
+                  <div class="table-head">
+                     Christian Bale
+                     <span>on 24.05.2019</span>
+                  </div>
+               </td>
+               <td>
+                  <div class="table-head">
+                     May 25, 2019
+                     <span>5:00 PM</span>
+                  </div>
+               </td>
+               <td>
+                  <img src="../images/normal.png">
+               </td>
+               <td>
+                  <img src="../images/more.png" alt="">
+               </td>
+            </tr>
+            <tr class="tr">
+               <td class="td">
+                  <div class="table-img">
+                     <img src="../images/tic5.png">
+                  </div>
+                  <div class="table-head">
+                     Unable to add replies
+                     <span>Updated 2 days ago</span>
+                  </div>
+               </td>
+               <td>
+                  <div class="table-head">
+                     Henry Cavil
+                     <span>on 24.05.2019</span>
+                  </div>
+               </td>
+               <td>
+                  <div class="table-head">
+                     May 25, 2019
+                     <span>4:00 PM</span>
+                  </div>
+               </td>
+               <td>
+                  <img src="../images/high.png">
+               </td>
+               <td>
+                  <img src="../images/more.png" alt="">
+               </td>
+            </tr>
+            <tr class="tr">
+               <td class="td">
+                  <div class="table-img">
+                     <img src="../images/tic6.png">
+                  </div>
+                  <div class="table-head">
+                     Downtime since last week
+                     <span>Updated 3 days ago</span>
+                  </div>
+               </td>
+               <td>
+                  <div class="table-head">
+                     Chris Evans
+                     <span>on 23.05.2019</span>
+                  </div>
+               </td>
+               <td>
+                  <div class="table-head">
+                     May 25, 2019
+                     <span>2:00 PM</span>
+                  </div>
+               </td>
+               <td>
+                  <img src="../images/normal.png">
+               </td>
+               <td>
+                  <img src="../images/more.png" alt="">
+               </td>
+            </tr>
+            <tr class="tr">
+               <td class="td">
+                  <div class="table-img">
+                     <img src="../images/tic7.png">
+                  </div>
+                  <div class="table-head">
+                     Referral Bonus
+                     <span>Updated 4 day ago</span>
+                  </div>
+               </td>
+               <td>
+                  <div class="table-head">
+                     Sam Smith
+                     <span>on 22.05.2019</span>
+                  </div>
+               </td>
+               <td>
+                  <div class="table-head">
+                     May 25, 2019
+                     <span>11:30 AM</span>
+                  </div>
+               </td>
+               <td>
+                  <img src="../images/low.png">
+               </td>
+               <td>
+                  <img src="../images/more.png" alt="">
+               </td>
+            </tr>
+            <tr class="tr">
+               <td class="td">
+                  <div class="table-img">
+                     <img src="../images/tic8.png">
+                  </div>
+                  <div class="table-head">
+                     How do I change my password?
+                     <span>Updated 6 day ago</span>
+                  </div>
+               </td>
+               <td>
+                  <div class="table-head">
+                     Steve Rogers
+                     <span>on 21.05.2019</span>
+                  </div>
+               </td>
+               <td>
+                  <div class="table-head">
+                     May 24, 2019
+                     <span>1:00 PM</span>
+                  </div>
+               </td>
+               <td>
+                  <img src="../images/normal.png">
+               </td>
+               <td>
+                  <img src="../images/more.png" alt="">
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </main>
+   <script src="../js/main.js"></script>
+</body>
+
+</html>

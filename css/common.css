@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+*,
+*::after,
+*::before {
+   box-sizing: border-box;
+}
+
+:root {
+   --aside-width: 255px;
+   --header-height: 80px;
+   --aside-transition: 0.5s;
+}
+
+li {
+   list-style-type: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+header,
+main {
+   position: fixed;
+   left: 255px;
+   padding: 20px;
+   width: calc(100vw - 255px);
+}
+
+header {
+   height: var(--header-height);
+   transition: var(--aside-transition);
+
+}
+
+main {
+   top: var(--header-height);
+   height: calc(100vh - var(--header-height));
+   overflow: auto;
+   transition: var(--aside-transition);
+
+}
+
+header,
+main {
+   position: fixed;
+   left: var(--aside-width);
+   padding: 20px;
+   width: calc(100vw - var(--aside-width));
+   transition: var(--aside-transition);
+}
+
+.dark *{
+   background-color: #363740;
+   color: #fff;
+}

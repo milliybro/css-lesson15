@@ -1,0 +1,144 @@
+main {
+   top: 97px;
+   height: calc(100vh - 97px);
+   font-family: 'Lato', sans-serif;
+   overflow: auto;
+}
+
+.main-content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.main-add .add {
+   border-radius: 5px;
+   background: #10CD45;
+   color: #FFF;
+   text-align: center;
+   font-size: 14px;
+   font-weight: 700;
+   padding: 12px 20px 12px;
+   border: none;
+   cursor: pointer;
+}
+
+.main-add {
+   display: flex;
+   align-items: center;
+   gap: 32.21px;
+   padding-right: 50px;
+}
+
+.hamburger img {
+   cursor: pointer;
+}
+
+table {
+   width: calc(99vw - var(--aside-width) - 40px);
+   border-collapse: collapse;
+   margin-top: 64.64px;
+   /* padding-right: 37px; */
+}
+
+table tbody {
+   margin-top: 20.3px;
+}
+
+table tbody tr,
+table thead tr {
+   padding-left: 19.45px;
+   height: 66px;
+}
+
+table thead tr {
+   text-align: left;
+   margin-left: 19.45px;
+}
+
+table tbody tr:nth-child(odd) {
+   /* opacity: 0.4000000059604645; */
+   background: #EEF2F5;
+}
+
+.tb-owner {
+   display: flex;
+   align-items: center;
+   padding-top: 35px;
+   gap: 24.51px;
+   padding-left: 19.45px;
+}
+
+.th-owner {
+   padding-left: 19.45px;
+}
+
+.table-green {
+   color: #00CA39;
+   font-size: 14px;
+   font-weight: 500;
+}
+
+.table-red {
+   color: #E44067;
+   font-size: 14px;
+   font-weight: 500;
+}
+
+/* page 2 */
+.all-tic {
+   padding-top: 30px;
+}
+
+.table,
+.th,
+.td,
+.tr {
+   border: 1px solid #DFE0EB;
+}
+
+.table {
+   border-collapse: collapse;
+}
+
+tr,
+th{
+   padding: 35px;
+}
+td{
+   padding: 24px;
+}
+
+.table .tab-head {
+   display: flex;
+   flex-direction: column;
+}
+
+.table-head {
+   display: flex;
+   flex-direction: column;
+}
+
+.table-head img {
+   width: 44px;
+   height: 44px;
+}
+
+.td {
+   display: flex;
+   flex-direction: row;
+   border: none;
+   gap: 24px;
+}
+
+tr span {
+   color: #C5C7CD;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 16px;
+   letter-spacing: 0.1px;
+}
+.table tbody .tr {
+   /* opacity: 0.4000000059604645; */
+   background: #fff;
+}
